@@ -14,7 +14,7 @@ MyButton({this.color, this.textColor, required this.buttonText, this.buttonTappe
 
 @override
 Widget build(BuildContext context) {
-	return GestureDetector(
+	return Inkwell(
 	onTap: buttonTapped,
 	child: Padding(
 		padding: const EdgeInsets.all(0.2),
